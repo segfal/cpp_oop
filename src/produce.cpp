@@ -24,11 +24,13 @@ std::string Produce::getType()
 }
 
 
-bool Produce::isFruit() {
+bool Produce::isFruit() 
+{
     return _isFruit;
 }
 
 
-bool Produce::isVegetable() {
+bool Produce::isVegetable()
+{
     return _isVegetable;
 }

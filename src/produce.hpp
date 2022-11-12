@@ -5,7 +5,8 @@
 #include <map>
 #include <iostream>
 
-class Produce {
+class Produce
+{
     private:
         std::string name;
         std::string type;

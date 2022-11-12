@@ -3,7 +3,8 @@
 
 #include "../produce.hpp"
 
-class Fruit : public Produce {
+class Fruit : public Produce
+{
 public:
     Fruit(std::string name);
     virtual ~Fruit();
